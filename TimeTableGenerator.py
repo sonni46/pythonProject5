@@ -5,7 +5,7 @@ def TimeTable():
     print('\n')
     for x in range(1,11):
         m = int(EnterTable.get())
-        print(f"\t\t, {x} x {m} = {x * m}")
+        print(f"\t\t {x} x {m} = {x * m}")
 
 root = Tk()
 root.geometry('250x250')
